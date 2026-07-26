@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="ftitle fdesc">
+  <title id="ftitle">Four edition formats / 四种呈现形式</title>
+  <desc id="fdesc">Interactive, full written, one-pager, and briefing deck.</desc>
+  <rect width="1200" height="240" rx="22" fill="#0B1422"/>
+  <text x="40" y="40" fill="#8BA4C0" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="1.5">FEATURE  |  FOUR RENDERINGS  |  四种呈现形式</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <g transform="translate(40 70)">
+      <rect width="270" height="140" rx="14" fill="#122033" stroke="#2A4566"/>
+      <rect x="16" y="18" width="54" height="22" rx="6" fill="#2563EB"/>
+      <text x="28" y="34" fill="#FFFFFF" font-size="12" font-weight="700">01</text>
+      <text x="16" y="68" fill="#F2F6FB" font-size="20" font-weight="700">Interactive</text>
+      <text x="16" y="94" fill="#93C5FD" font-size="15">交互版</text>
+      <text x="16" y="122" fill="#A9C0D8" font-size="13">ZH/EN · China/Global · periods</text>
+    </g>
+    <g transform="translate(330 70)">
+      <rect width="270" height="140" rx="14" fill="#122033" stroke="#2A4566"/>
+      <rect x="16" y="18" width="54" height="22" rx="6" fill="#0F766E"/>
+      <text x="28" y="34" fill="#FFFFFF" font-size="12" font-weight="700">02</text>
+      <text x="16" y="68" fill="#F2F6FB" font-size="20" font-weight="700">Full written</text>
+      <text x="16" y="94" fill="#5EEAD4" font-size="15">完整文稿</text>
+      <text x="16" y="122" fill="#A9C0D8" font-size="13">Markdown · shareable narrative</text>
+    </g>
+    <g transform="translate(620 70)">
+      <rect width="270" height="140" rx="14" fill="#122033" stroke="#2A4566"/>
+      <rect x="16" y="18" width="54" height="22" rx="6" fill="#B45309"/>
+      <text x="28" y="34" fill="#FFFFFF" font-size="12" font-weight="700">03</text>
+      <text x="16" y="68" fill="#F2F6FB" font-size="20" font-weight="700">One-pager</text>
+      <text x="16" y="94" fill="#FDBA74" font-size="15">一页摘要</text>
+      <text x="16" y="122" fill="#A9C0D8" font-size="13">Executive summary first</text>
+    </g>
+    <g transform="translate(910 70)">
+      <rect width="250" height="140" rx="14" fill="#122033" stroke="#2A4566"/>
+      <rect x="16" y="18" width="54" height="22" rx="6" fill="#334155"/>
+      <text x="28" y="34" fill="#FFFFFF" font-size="12" font-weight="700">04</text>
+      <text x="16" y="68" fill="#F2F6FB" font-size="20" font-weight="700">Briefing deck</text>
+      <text x="16" y="94" fill="#CBD5E1" font-size="15">简报幻灯片</text>
+      <text x="16" y="122" fill="#A9C0D8" font-size="13">14 HTML slides, no build</text>
+    </g>
+  </g>
+</svg>

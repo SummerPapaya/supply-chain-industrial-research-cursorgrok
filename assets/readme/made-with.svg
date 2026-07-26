@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="56" viewBox="0 0 420 56" role="img" aria-labelledby="t d">
+  <title id="t">README made with beautify-github-readme</title>
+  <desc id="d">Credit badge linking the homepage visual design to the beautify-github-readme skill.</desc>
+  <rect width="420" height="56" rx="12" fill="#0B1422" stroke="#2A4566"/>
+  <text x="18" y="24" fill="#8BA4C0" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="1.2">README VISUALS</text>
+  <text x="18" y="44" fill="#F2F6FB" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Made with beautify-github-readme</text>
+</svg>

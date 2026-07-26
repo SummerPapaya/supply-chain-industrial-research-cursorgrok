@@ -1,0 +1,88 @@
+# --- Credentials & secrets -------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.template
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
+*.crt
+*.csr
+.netrc
+.npmrc
+.pypirc
+credentials.json
+service-account*.json
+
+# --- Agent / IDE state that can contain prompts and keys -------------------
+agent-transcripts/
+.cursor/projects/**/agent-transcripts/
+.cursor/**/.env
+.cursor/**/terminals/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# --- Vendored / installed dependencies ------------------------------------
+# Never commit prebuilt binaries: they are unreviewable, platform-specific,
+# carry their own upstream licenses, and never receive security patches.
+.vendor/
+vendor/
+node_modules/
+.venv/
+venv/
+site-packages/
+*.dylib
+*.so
+*.dll
+*.pyd
+*.whl
+
+# --- Python build artifacts -----------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- OS & editor junk -----------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.rej
+
+# --- Canvas local state ---------------------------------------------------
+# Per-user UI state (selected language, market view, period). Not a deliverable,
+# and committing it would make every reader inherit someone else's view.
+*.canvas.data.json
+
+# --- Transient output -----------------------------------------------------
+*.log
+*.tmp
+*.cache
+.scan-results.txt
+
+# Per-user canvas UI state (last selected language, period, segment tab).
+# Local preference, not part of the report.
+*.canvas.data.json
+
+# Note: the --self-test probe dir (.security-scan-selftest/) is deliberately NOT
+# ignored. The scan honours .gitignore, so ignoring the probe would make the
+# self-test silently pass without detecting anything.

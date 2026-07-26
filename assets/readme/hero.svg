@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Supply Chain Industry Report / Gong Ying Lian Hang Ye Bao Gao</title>
+  <desc id="desc">Animated hero showing bilingual toggles, China and Global lenses, period windows, KPIs, trend line, and dual-lens radar.</desc>
+  <defs>
+    <clipPath id="frame-clip"><rect width="1200" height="420" rx="24"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1422"/><stop offset="1" stop-color="#122033"/>
+    </linearGradient>
+  </defs>
+
+  <g id="base" clip-path="url(#frame-clip)">
+    <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+    <g opacity="0.10" stroke="#7FA0C4" stroke-width="1">
+      <path d="M0 70 H1200 M0 140 H1200 M0 210 H1200 M0 280 H1200 M0 350 H1200"/>
+      <path d="M150 0 V420 M300 0 V420 M450 0 V420 M600 0 V420 M750 0 V420 M900 0 V420 M1050 0 V420"/>
+    </g>
+
+    <!-- left identity -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+      <text x="52" y="64" fill="#8BA4C0" font-size="16" font-weight="600" letter-spacing="1.8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">INDUSTRY REPORT  |  2026H1</text>
+      <text x="52" y="118" fill="#F2F6FB" font-size="40" font-weight="700">Supply Chain</text>
+      <text x="52" y="164" fill="#F2F6FB" font-size="40" font-weight="700">Industry Report</text>
+      <text x="52" y="200" fill="#93C5FD" font-size="22" font-weight="600">供应链行业报告</text>
+      <text x="52" y="242" fill="#B7C9DD" font-size="17">Switch language, market lens, and period</text>
+      <text x="52" y="266" fill="#B7C9DD" font-size="17">window — then read the same edition four ways.</text>
+      <text x="52" y="294" fill="#8BA4C0" font-size="15">切换语言、市场视角与时间窗口，同一版本四种呈现。</text>
+    </g>
+
+    <!-- feature chips (static) -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
+      <rect x="52" y="330" width="118" height="30" rx="15" fill="#173049" stroke="#335577"/>
+      <text x="68" y="350" fill="#D7E6F5">ZH / EN</text>
+      <rect x="180" y="330" width="140" height="30" rx="15" fill="#173049" stroke="#335577"/>
+      <text x="196" y="350" fill="#D7E6F5">China / Global</text>
+      <rect x="330" y="330" width="148" height="30" rx="15" fill="#173049" stroke="#335577"/>
+      <text x="346" y="350" fill="#D7E6F5">2025Q3-2026Q2</text>
+    </g>
+
+    <!-- right panel shell -->
+    <rect x="560" y="36" width="588" height="348" rx="18" fill="#101C2E" stroke="#2A4566" stroke-width="1.5"/>
+    <text x="584" y="68" fill="#8BA4C0" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="1.2">INTERACTIVE CONTROLS  |  交互控件</text>
+  </g>
+
+  <!-- animated: language toggle -->
+  <g id="lang-toggle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text x="584" y="100" fill="#8BA4C0" font-size="13">Language / 语言</text>
+    <rect x="720" y="82" width="120" height="28" rx="14" fill="#16263A" stroke="#35506F"/>
+    <rect id="lang-knob" x="722" y="84" width="56" height="24" rx="12" fill="#2563EB"/>
+    <text x="736" y="101" fill="#FFFFFF" font-size="12" font-weight="700">中文</text>
+    <text x="792" y="101" fill="#A9C0D8" font-size="12">EN</text>
+  </g>
+
+  <!-- animated: scope toggle -->
+  <g id="scope-toggle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="584" y="144" fill="#8BA4C0" font-size="13">Market / 市场</text>
+    <rect x="720" y="126" width="160" height="28" rx="14" fill="#16263A" stroke="#35506F"/>
+    <rect id="scope-knob" x="722" y="128" width="78" height="24" rx="12" fill="#EA580C"/>
+    <text x="736" y="145" fill="#FFFFFF" font-size="12" font-weight="700">Global</text>
+    <text x="812" y="145" fill="#A9C0D8" font-size="12">China</text>
+  </g>
+
+  <!-- period pills + cursor -->
+  <g id="period-row" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
+    <text x="584" y="188" fill="#8BA4C0" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Period / 窗口</text>
+    <rect x="720" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="728" y="188" fill="#A9C0D8">25Q3</text>
+    <rect x="790" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="798" y="188" fill="#A9C0D8">25Q4</text>
+    <rect x="860" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="868" y="188" fill="#A9C0D8">26Q1</text>
+    <rect x="930" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="938" y="188" fill="#A9C0D8">26Q2</text>
+    <rect x="1000" y="170" width="52" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="1014" y="188" fill="#A9C0D8">H1</text>
+    <rect id="period-cursor" x="930" y="170" width="64" height="26" rx="8" fill="none" stroke="#60A5FA" stroke-width="2.5"/>
+  </g>
+
+  <!-- KPI row -->
+  <g id="kpi-row" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g transform="translate(584 214)">
+      <rect width="140" height="64" rx="12" fill="#0D1A2B" stroke="#35506F"/>
+      <text x="14" y="24" fill="#8BA4C0" font-size="12">GSCPI</text>
+      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">1.82</text>
+    </g>
+    <g transform="translate(736 214)">
+      <rect width="140" height="64" rx="12" fill="#0D1A2B" stroke="#35506F"/>
+      <text x="14" y="24" fill="#8BA4C0" font-size="12">China LPI</text>
+      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">50.3</text>
+    </g>
+    <g transform="translate(888 214)">
+      <rect width="140" height="64" rx="12" fill="#0D1A2B" stroke="#35506F"/>
+      <text x="14" y="24" fill="#8BA4C0" font-size="12">WTO trade</text>
+      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">1.9%</text>
+    </g>
+  </g>
+
+  <!-- sparkline -->
+  <g id="sparkline">
+    <text x="584" y="308" fill="#8BA4C0" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">China LPI trend  |  中国物流景气走势</text>
+    <polyline points="584,348 620,340 656,328 692,334 728,318 764,322" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="764" cy="322" r="4.5" fill="#38BDF8"/>
+  </g>
+
+  <!-- radar -->
+  <g id="radar" transform="translate(860 286)">
+    <polygon points="80,6 138,50 116,114 44,114 22,50" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <polygon points="80,26 116,56 100,98 60,98 44,56" fill="none" stroke="#334155" stroke-width="1"/>
+    <polygon id="radar-cn" points="80,20 122,54 106,100 54,96 38,56" fill="#2563EB" fill-opacity="0.14" stroke="#2563EB" stroke-width="2.4"/>
+    <polygon id="radar-global" points="80,28 116,58 108,96 58,102 42,60" fill="none" stroke="#EA580C" stroke-width="2.4" stroke-dasharray="5 4"/>
+    <circle cx="24" cy="128" r="4.5" fill="#2563EB"/>
+    <text x="34" y="132" fill="#C7D7EA" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">China 中国</text>
+    <circle cx="110" cy="128" r="4.5" fill="#EA580C"/>
+    <text x="120" y="132" fill="#C7D7EA" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Global</text>
+  </g>
+</svg>

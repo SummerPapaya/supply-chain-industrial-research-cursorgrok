@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026H1 供应链行业报告（完整版Slides）</title>
+    <style>
+      :root {
+        --bg: #0b1220;
+        --line: #2a3a56;
+        --text: #e7eefb;
+        --muted: #9db0cf;
+        --accent: #4cc9f0;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+        background: radial-gradient(circle at top, #1a2942, var(--bg) 60%);
+        overflow: hidden;
+      }
+      .slide {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        padding: 48px 64px 84px;
+      }
+      .slide.active { display: block; }
+      h1 { margin: 0 0 10px; font-size: 44px; }
+      h2 { margin: 0 0 14px; font-size: 34px; }
+      p, li { font-size: 20px; line-height: 1.45; }
+      .sub { color: var(--muted); font-size: 16px; }
+      .grid4 {
+        margin-top: 16px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+      }
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: rgba(17, 25, 41, 0.85);
+        padding: 12px;
+      }
+      .v { font-size: 28px; font-weight: 700; color: var(--accent); }
+      .k { margin-top: 4px; font-size: 14px; color: var(--muted); }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 15px;
+      }
+      th, td {
+        border: 1px solid var(--line);
+        padding: 8px 9px;
+        vertical-align: top;
+      }
+      th { color: #b9d4ff; text-align: left; background: rgba(76, 201, 240, 0.08); }
+      .bar-row {
+        display: grid;
+        grid-template-columns: 230px 1fr 72px;
+        align-items: center;
+        gap: 10px;
+        margin: 8px 0;
+      }
+      .bar {
+        height: 14px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: #1b2940;
+      }
+      .bar > span {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg, #2dd4bf, #4cc9f0);
+      }
+      .footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 64px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .controls {
+        position: fixed;
+        right: 14px;
+        bottom: 14px;
+        display: flex;
+        gap: 8px;
+      }
+      button {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(10, 16, 28, 0.92);
+        color: var(--text);
+        padding: 8px 12px;
+        cursor: pointer;
+      }
+      button:hover { border-color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <section class="slide active">
+      <h1>2026年上半年供应链行业报告</h1>
+      <p class="sub">完整版网页版PPT ｜ 含行业全章节与专项页</p>
+      <div class="grid4">
+        <div class="card"><div class="v">54%</div><div class="k">预计贸易增速快于上年</div></div>
+        <div class="card"><div class="v">53%</div><div class="k">预期政策不确定性高/很高</div></div>
+        <div class="card"><div class="v">1.9%</div><div class="k">WTO货物贸易增速基线</div></div>
+        <div class="card"><div class="v">50.3%</div><div class="k">中国LPI（2026年5月）</div></div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>目录</h2>
+      <ol>
+        <li>行业综述</li>
+        <li>行业动态</li>
+        <li>市场表现（中国 + 国际）</li>
+        <li>热门议题</li>
+        <li>行业趋势（2026H2）</li>
+        <li>行业/品类专项（5个行业）</li>
+        <li>专题：中外数智化供应链对照图</li>
+        <li>参考来源</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>一、行业综述</h2>
+      <ul>
+        <li>全球供应链已从周期性扰动进入结构性波动阶段。</li>
+        <li>企业策略由“成本效率优先”升级为“Total Value（增长+韧性+效率）”。</li>
+        <li>中国侧表现为景气修复，国际侧表现为高不确定性下的增长韧性。</li>
+      </ul>
+      <p class="sub">来源：WEF、KPMG、DP World、WTO</p>
+    </section>
+
+    <section class="slide">
+      <h2>二、行业动态</h2>
+      <table>
+        <thead><tr><th>主题</th><th>中国侧信号</th><th>国际侧信号</th></tr></thead>
+        <tbody>
+          <tr><td>景气与需求</td><td>春节后物流景气修复，二季度回稳</td><td>增长预期仍在，但政策/地缘风险高位</td></tr>
+          <tr><td>网络与组织</td><td>内外贸联动、枢纽协同增强</td><td>供应链集中治理与控制塔能力提升</td></tr>
+          <tr><td>数字化与AI</td><td>从可视化走向决策化与场景化</td><td>AI从PoV走向平台化、Agentic流程扩展</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="slide">
+      <h2>三、市场表现（国际调研）</h2>
+      <div class="bar-row"><div>贸易增长快于上年</div><div class="bar"><span style="width:54%"></span></div><div>54%</div></div>
+      <div class="bar-row"><div>贸易增长持平</div><div class="bar"><span style="width:40%"></span></div><div>40%</div></div>
+      <div class="bar-row"><div>政策不确定性高/很高</div><div class="bar"><span style="width:53%"></span></div><div>53%</div></div>
+      <div class="bar-row"><div>供应商多元化</div><div class="bar"><span style="width:51%"></span></div><div>51%</div></div>
+      <div class="bar-row"><div>仓储/物流枢纽优先投资</div><div class="bar"><span style="width:39%"></span></div><div>39%</div></div>
+      <p class="sub">来源：DP World Global Trade Observatory 2026</p>
+    </section>
+
+    <section class="slide">
+      <h2>三、市场表现（WTO情景）</h2>
+      <table>
+        <thead><tr><th>情景</th><th>2026货物贸易增速</th><th>说明</th></tr></thead>
+        <tbody>
+          <tr><td>基线</td><td><strong>1.9%</strong></td><td>贸易增速回归常态区间</td></tr>
+          <tr><td>高能源价格冲击</td><td><strong>1.4%</strong></td><td>能源与运输成本高位压制增长</td></tr>
+        </tbody>
+      </table>
+      <p class="sub">来源：WTO Global Trade Outlook and Statistics (Mar 2026)</p>
+    </section>
+
+    <section class="slide">
+      <h2>四、热门议题</h2>
+      <ul>
+        <li>AI规模化与Agentic Procurement</li>
+        <li>供应商多元化与区域化网络重构</li>
+        <li>仓储/物流枢纽投资升温</li>
+        <li>关务与合规效率成为新瓶颈</li>
+        <li>绿色与可追溯能力由“加分项”转向“准入门槛”</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>五、行业趋势（2026H2）</h2>
+      <table>
+        <thead><tr><th>趋势方向</th><th>判断</th><th>建议指标</th></tr></thead>
+        <tbody>
+          <tr><td>韧性+增长双目标</td><td>供应链由支持职能转向增长引擎</td><td>新市场订单占比、OTIF</td></tr>
+          <tr><td>AI协同运营</td><td>计划-采购-履约-风控一体化提速</td><td>预测偏差、异常处置时长</td></tr>
+          <tr><td>网络治理升级</td><td>多源可切换与替代能力成为刚需</td><td>双供覆盖率、切换成功率</td></tr>
+          <tr><td>绩效体系重构</td><td>成本/交付扩展到恢复速度与价值复合</td><td>恢复时间、自动化闭环率</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="slide">
+      <h2>六、行业专项：电子消费品</h2>
+      <div class="grid4">
+        <div class="card"><div class="v">+75%</div><div class="k">Q2 DRAM/NAND合同价最高涨幅信号</div></div>
+        <div class="card"><div class="v">&gt;52周</div><div class="k">部分功率器件/分立器件交期</div></div>
+        <div class="card"><div class="v">$791.7B</div><div class="k">2025全球半导体销售规模</div></div>
+        <div class="card"><div class="v">紧平衡</div><div class="k">组件级供给状态</div></div>
+      </div>
+      <p>动作：关键料双供、替代BOM、周级滚动计划、跨境仓网协同。</p>
+    </section>
+
+    <section class="slide">
+      <h2>六、行业专项：新能源汽车</h2>
+      <div class="grid4">
+        <div class="card"><div class="v">60-85%</div><div class="k">中国在多环节产能份额</div></div>
+        <div class="card"><div class="v">&lt;25%</div><div class="k">去除最大供应方后部分环节可满足需求比例</div></div>
+        <div class="card"><div class="v">$17B/月</div><div class="k">若中国电池链出口停摆1个月对海外整车产出影响</div></div>
+        <div class="card"><div class="v">N-1</div><div class="k">关键脆弱点识别框架</div></div>
+      </div>
+      <p>动作：关键原料分层保供、区域化供应网络、全链路追溯。</p>
+    </section>
+
+    <section class="slide">
+      <h2>六、行业专项：医药与冷链 / 快消零售</h2>
+      <table>
+        <thead><tr><th>品类</th><th>关键信号</th><th>建议动作</th></tr></thead>
+        <tbody>
+          <tr><td>医药与冷链</td><td>温控与合规约束抬升，跨境协同复杂度提升</td><td>温控数据标准、异常SOP、审计留痕</td></tr>
+          <tr><td>快消与零售</td><td>全渠道库存协同成为利润杠杆，补货从周级向日内演进</td><td>动态补货、MEIO、多级仓网协同</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="slide">
+      <h2>六、行业专项：工业装备 / 高科技制造</h2>
+      <div class="grid4">
+        <div class="card"><div class="v">95%</div><div class="k">认为AI是未来成功必要能力</div></div>
+        <div class="card"><div class="v">97%</div><div class="k">AI已嵌入核心流程</div></div>
+        <div class="card"><div class="v">62%</div><div class="k">将制造计划视为最大挑战</div></div>
+        <div class="card"><div class="v">81%</div><div class="k">认为供应商管理耗时且昂贵</div></div>
+      </div>
+      <p>动作：项目制计划协同、关键件分级保供、备件网络优化。</p>
+    </section>
+
+    <section class="slide">
+      <h2>七、专题：中外数智化供应链对照图</h2>
+      <table>
+        <thead><tr><th>维度</th><th>中国</th><th>国际</th><th>关键差异</th></tr></thead>
+        <tbody>
+          <tr><td>数字化基础</td><td>场景落地速度快</td><td>体系治理成熟度高</td><td>中国快执行，国际强治理</td></tr>
+          <tr><td>AI应用深度</td><td>运营效率导向</td><td>跨职能流程重塑导向</td><td>应用深度路径不同</td></tr>
+          <tr><td>组织模式</td><td>中台化推进</td><td>GBS与全球中枢集中化</td><td>组织先后与治理路径不同</td></tr>
+          <tr><td>绩效指标</td><td>履约与协同升级</td><td>Total Value与恢复速度体系化</td><td>国际复合指标体系更系统</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="slide">
+      <h2>八、参考来源</h2>
+      <ul>
+        <li>WEF《Global Value Chains Outlook 2026》</li>
+        <li>KPMG《Key trends impacting supply chains in 2026》</li>
+        <li>DP World《Global Trade Observatory 2026》</li>
+        <li>WTO《Global Trade Outlook and Statistics (Mar 2026)》</li>
+        <li>IEA《Energy Technology Perspectives 2026》</li>
+        <li>Fictiv《2026 State of Manufacturing & Supply Chain》</li>
+        <li>纽约联储 GSCPI / 中物联 LPI</li>
+      </ul>
+    </section>
+
+    <div class="footer">
+      <div id="counter">1 / 14</div>
+      <div>键盘 ←/→ 或 PageUp/PageDown 翻页</div>
+    </div>
+
+    <div class="controls">
+      <button id="prev">上一页</button>
+      <button id="next">下一页</button>
+      <button id="fs">全屏</button>
+    </div>
+
+    <script>
+      const slides = [...document.querySelectorAll(".slide")];
+      const counter = document.getElementById("counter");
+      let idx = 0;
+      function render() {
+        slides.forEach((s, i) => s.classList.toggle("active", i === idx));
+        counter.textContent = `${idx + 1} / ${slides.length}`;
+      }
+      function next() { idx = (idx + 1) % slides.length; render(); }
+      function prev() { idx = (idx - 1 + slides.length) % slides.length; render(); }
+      document.getElementById("next").addEventListener("click", next);
+      document.getElementById("prev").addEventListener("click", prev);
+      document.getElementById("fs").addEventListener("click", async () => {
+        if (!document.fullscreenElement) await document.documentElement.requestFullscreen();
+        else await document.exitFullscreen();
+      });
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight" || e.key === "PageDown") next();
+        if (e.key === "ArrowLeft" || e.key === "PageUp") prev();
+      });
+      render();
+    </script>
+  </body>
+</html>
