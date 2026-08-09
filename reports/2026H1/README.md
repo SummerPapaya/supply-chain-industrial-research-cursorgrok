@@ -4,16 +4,27 @@
 
 Four renderings of the same edition. Pick the one that fits the audience.
 
+**Browser preview:** open [`report.html`](report.html) for a rendered interactive HTML page (no build step).
+
 | File | Format | Language | What it is |
 |---|---|---|---|
+| [`report.html`](report.html) | Interactive HTML (browser) | 中文 / EN | Browser-rendered report with the same language, market, and period controls |
 | [`report.canvas.tsx`](report.canvas.tsx) | Interactive (Cursor canvas) | 中文 / EN | The full report, with language, market-view, and period switching |
 | [`report.zh.md`](report.zh.md) | Markdown | 中文 | Full written report, structured for sharing |
 | [`one-pager.zh.md`](one-pager.zh.md) | Markdown | 中文 | One-page executive summary — conclusions first, five key numbers |
 | [`slides.zh.html`](slides.zh.html) | HTML deck, 14 slides | 中文 | Briefing deck; opens in any browser, no build step |
 
-The interactive edition is the source of truth — it carries both languages, both market views (China / Global), and every archived period. The static exports are snapshots of the 2026H1 Chinese view.
+`report.canvas.tsx` is the interactive source of truth. `report.html` is a browser-ready conversion with the same controls and content for local review. The Markdown/HTML exports are snapshots of the 2026H1 Chinese view.
 
-## Running the interactive edition
+## Review in a browser
+
+```bash
+open reports/2026H1/report.html
+```
+
+No build step or network access is required.
+
+## Running the Cursor canvas edition
 
 Cursor only detects canvases inside its managed per-workspace directory, so the file has to be copied there rather than opened in place:
 
@@ -22,7 +33,7 @@ cp reports/2026H1/report.canvas.tsx \
    ~/.cursor/projects/<your-workspace>/canvases/
 ```
 
-Then open it from that directory to get the live view with the control panel. Use `~/.cursor/projects/` to find your workspace name.
+Then open it from that directory to get the live Canvas view. Use `~/.cursor/projects/` to find your workspace name.
 
 `tsconfig.json` sits alongside the canvas so editors can type-check it while editing. The `cursor/canvas` import resolves inside Cursor and will show as unresolved anywhere else — that is expected.
 
