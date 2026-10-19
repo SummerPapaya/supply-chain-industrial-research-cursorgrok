@@ -1,6 +1,6 @@
 # 2026H1 — Supply Chain Industry Report
 
-**Coverage:** `2025Q3 → 2026Q2` (quarterly windows) · `2025H2 → 2026H1` (half-year windows)
+**Coverage:** `2026YTD` (Jan–Sep, Q1–Q3 together) · `2025Q3 → 2026Q3` (quarterly) · `2025H2 → 2026H2 through September` (half-year; 2026 H2 is partial)
 
 Four renderings of the same edition. Pick the one that fits the audience.
 
@@ -14,7 +14,7 @@ Four renderings of the same edition. Pick the one that fits the audience.
 | [`one-pager.zh.md`](one-pager.zh.md) | Markdown | 中文 | One-page executive summary — conclusions first, five key numbers |
 | [`slides.zh.html`](slides.zh.html) | HTML deck, 14 slides | 中文 | Briefing deck; opens in any browser, no build step |
 
-`report.canvas.tsx` is the interactive source of truth. `report.html` is a browser-ready conversion with the same controls and content for local review. The Markdown/HTML exports are snapshots of the 2026H1 Chinese view.
+`report.canvas.tsx` is the interactive source of truth. `report.html` is a browser-ready conversion with the same controls and content for local review. The Markdown exports lead with the 2026Q3 decision window and keep the 2026H1 write-up behind it. `slides.zh.html` opens on the Q3 numbers; the later slides remain the first-half briefing.
 
 ## Review in a browser
 
@@ -51,4 +51,4 @@ Segments covered: consumer electronics, new energy vehicles, pharma and cold cha
 
 ## Method notes
 
-Built from public sources — WTO trade outlooks, the New York Fed GSCPI, Shanghai Shipping Exchange SCFI, Drewry WCI, and China Federation of Logistics & Purchasing LPI releases. Where a continuous monthly series is unavailable for an archived window, the report shows a clearly labelled trend-score proxy view (baseline = 100) rather than presenting a gap as data. Figures should be re-verified before external publication.
+Built from public sources. GSCPI is the New York Fed October 2026 vintage: history is revised at every release, and August 2026 was revised from 1.06 to 1.20. China LPI for July–September 2026 uses the public CFLP releases; June 2026 is implied by the official July month-on-month change. China 2025 has no citable monthly series in this edition, so those charts are a flat baseline-100 placeholder, not a trend. Late-May SCFI and WCI were not refreshed through September and are not in the Q3 cards.

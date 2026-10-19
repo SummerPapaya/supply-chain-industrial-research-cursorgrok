@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Supply Chain Industry Report / Gong Ying Lian Hang Ye Bao Gao</title>
-  <desc id="desc">Animated hero showing bilingual toggles, China and Global lenses, period windows, KPIs, trend line, and dual-lens radar.</desc>
+  <desc id="desc">Animated hero for the interactive report: 2026 year to date, China and Global lenses, September LPI and GSCPI, and the capability radar.</desc>
   <defs>
     <clipPath id="frame-clip"><rect width="1200" height="420" rx="24"/></clipPath>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
@@ -18,13 +18,13 @@
 
     <!-- left identity -->
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
-      <text x="52" y="64" fill="#8BA4C0" font-size="16" font-weight="600" letter-spacing="1.8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">INDUSTRY REPORT  |  2026H1</text>
+      <text x="52" y="64" fill="#8BA4C0" font-size="16" font-weight="600" letter-spacing="1.8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">INDUSTRY REPORT  |  2026 YTD</text>
       <text x="52" y="118" fill="#F2F6FB" font-size="40" font-weight="700">Supply Chain</text>
       <text x="52" y="164" fill="#F2F6FB" font-size="40" font-weight="700">Industry Report</text>
       <text x="52" y="200" fill="#93C5FD" font-size="22" font-weight="600">供应链行业报告</text>
-      <text x="52" y="242" fill="#B7C9DD" font-size="17">Switch language, market lens, and period</text>
-      <text x="52" y="266" fill="#B7C9DD" font-size="17">window — then read the same edition four ways.</text>
-      <text x="52" y="294" fill="#8BA4C0" font-size="15">切换语言、市场视角与时间窗口，同一版本四种呈现。</text>
+      <text x="52" y="242" fill="#B7C9DD" font-size="17">Default reading: January–September 2026.</text>
+      <text x="52" y="266" fill="#B7C9DD" font-size="17">Switch language, lens, quarter, or half-year.</text>
+      <text x="52" y="294" fill="#8BA4C0" font-size="15">主口径是 2026 年 1–9 月，可再切语言、视角与时间。</text>
     </g>
 
     <!-- feature chips (static) -->
@@ -33,8 +33,8 @@
       <text x="68" y="350" fill="#D7E6F5">ZH / EN</text>
       <rect x="180" y="330" width="140" height="30" rx="15" fill="#173049" stroke="#335577"/>
       <text x="196" y="350" fill="#D7E6F5">China / Global</text>
-      <rect x="330" y="330" width="148" height="30" rx="15" fill="#173049" stroke="#335577"/>
-      <text x="346" y="350" fill="#D7E6F5">2025Q3-2026Q2</text>
+      <rect x="330" y="330" width="118" height="30" rx="15" fill="#173049" stroke="#335577"/>
+      <text x="346" y="350" fill="#D7E6F5">2026 YTD</text>
     </g>
 
     <!-- right panel shell -->
@@ -55,51 +55,47 @@
   <g id="scope-toggle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
     <text x="584" y="144" fill="#8BA4C0" font-size="13">Market / 市场</text>
     <rect x="720" y="126" width="160" height="28" rx="14" fill="#16263A" stroke="#35506F"/>
-    <rect id="scope-knob" x="722" y="128" width="78" height="24" rx="12" fill="#EA580C"/>
-    <text x="736" y="145" fill="#FFFFFF" font-size="12" font-weight="700">Global</text>
-    <text x="812" y="145" fill="#A9C0D8" font-size="12">China</text>
+    <rect id="scope-knob" x="800" y="128" width="78" height="24" rx="12" fill="#2563EB"/>
+    <text x="736" y="145" fill="#A9C0D8" font-size="12">Global</text>
+    <text x="818" y="145" fill="#FFFFFF" font-size="12" font-weight="700">China</text>
   </g>
 
   <!-- period pills + cursor -->
   <g id="period-row" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
-    <text x="584" y="188" fill="#8BA4C0" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Period / 窗口</text>
-    <rect x="720" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
-    <text x="728" y="188" fill="#A9C0D8">25Q3</text>
-    <rect x="790" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
-    <text x="798" y="188" fill="#A9C0D8">25Q4</text>
-    <rect x="860" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
-    <text x="868" y="188" fill="#A9C0D8">26Q1</text>
-    <rect x="930" y="170" width="64" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
-    <text x="938" y="188" fill="#A9C0D8">26Q2</text>
-    <rect x="1000" y="170" width="52" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
-    <text x="1014" y="188" fill="#A9C0D8">H1</text>
-    <rect id="period-cursor" x="930" y="170" width="64" height="26" rx="8" fill="none" stroke="#60A5FA" stroke-width="2.5"/>
+    <text x="584" y="188" fill="#8BA4C0" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Period / 时间</text>
+    <rect x="720" y="170" width="72" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="736" y="188" fill="#F2F6FB">YTD</text>
+    <rect x="800" y="170" width="72" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="812" y="188" fill="#A9C0D8">Quarter</text>
+    <rect x="880" y="170" width="72" height="26" rx="8" fill="#16263A" stroke="#35506F"/>
+    <text x="900" y="188" fill="#A9C0D8">Half</text>
+    <rect id="period-cursor" x="720" y="170" width="72" height="26" rx="8" fill="none" stroke="#60A5FA" stroke-width="2.5"/>
   </g>
 
   <!-- KPI row -->
   <g id="kpi-row" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
     <g transform="translate(584 214)">
       <rect width="140" height="64" rx="12" fill="#0D1A2B" stroke="#35506F"/>
-      <text x="14" y="24" fill="#8BA4C0" font-size="12">GSCPI</text>
-      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">1.82</text>
+      <text x="14" y="24" fill="#8BA4C0" font-size="12">Sep LPI</text>
+      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">51.5%</text>
     </g>
     <g transform="translate(736 214)">
       <rect width="140" height="64" rx="12" fill="#0D1A2B" stroke="#35506F"/>
-      <text x="14" y="24" fill="#8BA4C0" font-size="12">China LPI</text>
-      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">50.3</text>
+      <text x="14" y="24" fill="#8BA4C0" font-size="12">Sep GSCPI</text>
+      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">1.28</text>
     </g>
     <g transform="translate(888 214)">
       <rect width="140" height="64" rx="12" fill="#0D1A2B" stroke="#35506F"/>
-      <text x="14" y="24" fill="#8BA4C0" font-size="12">WTO trade</text>
-      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">1.9%</text>
+      <text x="14" y="24" fill="#8BA4C0" font-size="12">Cost, 9 mo</text>
+      <text x="14" y="50" fill="#F2F6FB" font-size="24" font-weight="700">&gt;52%</text>
     </g>
   </g>
 
   <!-- sparkline -->
   <g id="sparkline">
-    <text x="584" y="308" fill="#8BA4C0" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">China LPI trend  |  中国物流景气走势</text>
-    <polyline points="584,348 620,340 656,328 692,334 728,318 764,322" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="764" cy="322" r="4.5" fill="#38BDF8"/>
+    <text x="584" y="308" fill="#8BA4C0" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">China LPI  |  2026-01 to 2026-09</text>
+    <polyline points="584,334 640,354 696,340 752,343 808,339 864,337 920,338 976,334 1032,330" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1032" cy="330" r="4.5" fill="#38BDF8"/>
   </g>
 
   <!-- radar -->

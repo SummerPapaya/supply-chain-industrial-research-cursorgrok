@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/readme/hero.gif" alt="Supply Chain Industry Report / 供应链行业报告 — animated bilingual controls, China and Global lenses, period windows, KPIs, and dual-lens radar" width="100%">
+<img src="assets/readme/hero.gif" alt="Supply Chain Industry Report / 供应链行业报告 — 2026 year to date, China lens, September LPI 51.5 percent, September GSCPI 1.28, and the capability radar" width="100%">
 
 # Supply Chain Industry Report
 # 供应链行业报告
 
-**EN:** A bilingual research workspace for recurring supply chain industry analysis — compare China and Global conditions across quarterly and half-year windows.
+**EN:** A bilingual interactive supply-chain report. The default reading is 2026 year to date (January–September); quarter and half-year are other cuts of the same series.
 
-**中文：**面向供应链行业的双语研究工作区，按季度 / 半年度窗口复盘，并同时提供中国与全球两种市场视角。
+**中文：**双语交互式供应链行业报告。默认阅读 2026 年年初至今（1–9 月）；季度和半年是同一序列的其他切法。
 
 <p>
   <a href="#english">English</a> · <a href="#中文">中文</a>
@@ -16,8 +16,8 @@
 </p>
 
 <p>
-  <img alt="Coverage 2025Q3–2026Q2" src="https://img.shields.io/badge/coverage-2025Q3%E2%80%932026Q2-2563eb?style=flat-square">
-  <img alt="Windows: quarterly and half-year" src="https://img.shields.io/badge/windows-quarterly%20%7C%20half--year-0f766e?style=flat-square">
+  <img alt="Coverage 2025Q3–2026Q3" src="https://img.shields.io/badge/coverage-2025Q3%E2%80%932026Q3-2563eb?style=flat-square">
+  <img alt="Periods: year to date, quarter, and half-year" src="https://img.shields.io/badge/periods-YTD%20%7C%20quarter%20%7C%20half--year-0f766e?style=flat-square">
   <img alt="Languages: Chinese and English" src="https://img.shields.io/badge/languages-%E4%B8%AD%E6%96%87%20%7C%20EN-334155?style=flat-square">
   <img alt="Views: China and Global" src="https://img.shields.io/badge/views-China%20%7C%20Global-ea580c?style=flat-square">
   <img alt="License: MIT and CC BY 4.0" src="https://img.shields.io/badge/license-MIT%20%2B%20CC--BY--4.0-0f172a?style=flat-square">
@@ -33,11 +33,11 @@
 
 ## Features at a Glance
 
-The interactive edition is built around three controls, then rendered four ways:
+The interactive edition is the main deliverable. Three controls change the reading; the page is six plates.
 
-<img src="assets/readme/controls.svg" alt="Three interactive controls: language ZH/EN, market China/Global, and period windows" width="100%">
+<img src="assets/readme/controls.svg" alt="Three interactive controls: language ZH/EN, market China/Global, and period" width="100%">
 
-<img src="assets/readme/narrative.svg" alt="Seven-section fixed narrative from metrics through sources" width="100%">
+<img src="assets/readme/narrative.svg" alt="Six plates in the interactive report: readings, judgment, monthly path, moves, capability structure, sources" width="100%">
 
 <img src="assets/readme/formats.svg" alt="Four edition formats: Interactive, Full written, One-pager, Briefing deck" width="100%">
 
@@ -47,17 +47,17 @@ The interactive edition is built around three controls, then rendered four ways:
 
 ## Read the Report
 
-Current edition: **2026H1**
+Current edition: **2026 year to date** (January–September). 2026Q3 is one segment of that year, not the whole story. 2026 H2 in the half-year control is July–September only.
 
 | Edition | File | Best for |
 |---|---|---|
-| **Interactive** (中文 / EN) | [`reports/2026H1/report.canvas.tsx`](reports/2026H1/report.canvas.tsx) | Switching language, market view, and period window live |
+| **Interactive** (中文 / EN) | [`reports/2026H1/report.html`](reports/2026H1/report.html) | The report itself. Open in a browser; language, lens, and period switch live. Source: [`report.canvas.tsx`](reports/2026H1/report.canvas.tsx) |
 | **Full written** (中文) | [`reports/2026H1/report.zh.md`](reports/2026H1/report.zh.md) | Reading end to end, quoting, reviewing |
 | **One-pager** (中文) | [`reports/2026H1/one-pager.zh.md`](reports/2026H1/one-pager.zh.md) | Forwarding the conclusion to an executive |
 | **Briefing deck** (中文) | [`reports/2026H1/slides.zh.html`](reports/2026H1/slides.zh.html) | Presenting — self-contained HTML, no build step |
 
 ```bash
-open reports/2026H1/slides.zh.html
+open reports/2026H1/report.html
 ```
 
 Edition index: [`reports/2026H1/`](reports/2026H1/)
@@ -66,23 +66,23 @@ Edition index: [`reports/2026H1/`](reports/2026H1/)
 
 A recurring **decision-support** industry report, not a one-off write-up.
 
-Every edition answers the same five questions — what changed, how the market performed, what everyone is arguing about, where things are heading, and what to do next — so `2026Q1` and `2026Q2` can be read side by side without re-learning the layout.
+The interactive page answers, in order: what the readings are, what they mean, how the months moved, what to do, how China and Global capability differ, and where the figures come from.
 
 | | |
 |---|---|
 | **Scope** | Global supply chain conditions with a dedicated China lens |
-| **Windows** | Quarterly (`2025Q3` → `2026Q2`) and half-year (`2025H2`, `2026H1`) |
+| **Periods** | 2026 year to date (Jan–Sep), quarterly (`2025Q3` → `2026Q3`), and half-year (`2025H2`, `2026H1`, `2026H2` through September) |
 | **Modes** | Chinese / English · China market / Global market |
-| **Indicators** | GSCPI, SCFI, Drewry WCI, China LPI, WTO trade outlook |
+| **Indicators in this edition** | China LPI and NY Fed GSCPI (October 2026 vintage). Late-May SCFI and WCI were not refreshed through September, so they are not in the current cards |
 | **Audience** | Strategy, operations leadership, procurement, market intelligence |
 
 ## Getting Started
 
 ```bash
-# briefing deck — no tooling
-open reports/2026H1/slides.zh.html
+# interactive report — open in any browser
+open reports/2026H1/report.html
 
-# interactive edition — Cursor only detects canvases in its managed folder
+# same edition inside Cursor
 cp reports/2026H1/report.canvas.tsx ~/.cursor/projects/<your-workspace>/canvases/
 ```
 
@@ -91,7 +91,7 @@ Cursor supplies the `cursor/canvas` types at runtime, so there is no dependency 
 ## Data & Method Notes
 
 - Built from public references: WTO trade outlooks, New York Fed **GSCPI**, Shanghai Shipping Exchange **SCFI**, Drewry **WCI**, and China Federation of Logistics & Purchasing **LPI** releases.
-- Archive windows may use a labelled **trend-score proxy view (baseline = 100)** when a continuous monthly series is unavailable.
+- China 2025 has no citable monthly LPI series in this edition. Those charts are a flat archive proxy (baseline = 100), not a recovery. Global 2025 uses official GSCPI.
 - Positioning: a decision-support analysis product, not a statutory disclosure dataset. Re-verify figures before external publication.
 
 ## Repository Layout
@@ -105,8 +105,8 @@ Cursor supplies the `cursor/canvas` types at runtime, so there is no dependency 
 │   ├── hero.svg             # editable static source / fallback
 │   ├── hero-motion.json
 │   ├── preview.html         # local animated preview page
-│   ├── controls.svg         # language / market / period
-│   ├── narrative.svg        # seven-section story spine
+│   ├── controls.svg         # language / lens / period
+│   ├── narrative.svg        # six plates of the interactive report
 │   ├── formats.svg          # four edition formats
 │   ├── segments.svg         # five industry segments
 │   ├── dual-lens.svg        # China / Global radar legend
@@ -175,11 +175,11 @@ When reusing the report content or visuals, attribute SummerPapaya and link to C
 
 ## 功能一览
 
-交互版围绕三项控件展开，再以四种形式输出：
+交互版是这份报告的主体。三项控件改变阅读内容，页面分成六块。
 
-<img src="assets/readme/controls.svg" alt="三项交互控件：语言、市场视角、时间窗口" width="100%">
+<img src="assets/readme/controls.svg" alt="三项交互控件：语言、视角、时间" width="100%">
 
-<img src="assets/readme/narrative.svg" alt="从关键指标到来源方法的固定七段叙事" width="100%">
+<img src="assets/readme/narrative.svg" alt="交互版六块：读数、判断、月度路径、要做的事、能力结构、来源" width="100%">
 
 <img src="assets/readme/formats.svg" alt="四种呈现形式：交互版、完整文稿、一页摘要、简报幻灯片" width="100%">
 
@@ -189,17 +189,17 @@ When reusing the report content or visuals, attribute SummerPapaya and link to C
 
 ## 阅读报告
 
-当前版本：**2026H1**
+当前版本：**2026 年年初至今**（1–9 月）。三季度是这一年中的一段，不是整段故事。半年里的 2026 年下半年只收到 7–9 月。
 
 | 版本 | 文件 | 适用场景 |
 |---|---|---|
-| **交互版**（中文 / EN） | [`reports/2026H1/report.canvas.tsx`](reports/2026H1/report.canvas.tsx) | 实时切换语言、市场视角与时间窗口 |
+| **交互版**（中文 / EN） | [`reports/2026H1/report.html`](reports/2026H1/report.html) | 报告本身。浏览器直接打开，语言、视角和时间会一起切换。源文件：[`report.canvas.tsx`](reports/2026H1/report.canvas.tsx) |
 | **完整文稿**（中文） | [`reports/2026H1/report.zh.md`](reports/2026H1/report.zh.md) | 通读、引用、审阅 |
 | **一页摘要**（中文） | [`reports/2026H1/one-pager.zh.md`](reports/2026H1/one-pager.zh.md) | 向管理层快速传递结论 |
 | **简报幻灯片**（中文） | [`reports/2026H1/slides.zh.html`](reports/2026H1/slides.zh.html) | 汇报演示 — 纯 HTML，无需构建 |
 
 ```bash
-open reports/2026H1/slides.zh.html
+open reports/2026H1/report.html
 ```
 
 版本目录：[`reports/2026H1/`](reports/2026H1/)
@@ -208,23 +208,23 @@ open reports/2026H1/slides.zh.html
 
 这是一份可复用的**决策支持型**行业报告，而不是一次性文稿。
 
-每一期都回答同样五个问题 — 发生了什么、市场表现如何、当下焦点议题、趋势走向、以及下一步动作 — 因此 `2026Q1` 与 `2026Q2` 可以并排阅读，无需重新熟悉结构。
+交互页按顺序回答：读数是什么、意味着什么、月份怎么走、要做什么、中外能力差在哪里、数字从哪来。
 
 | | |
 |---|---|
 | **覆盖范围** | 全球供应链格局，并设中国市场专章视角 |
-| **时间窗口** | 季度（`2025Q3` → `2026Q2`）与半年度（`2025H2`、`2026H1`） |
+| **时间** | 2026 年年初至今（1–9 月）、季度（`2025Q3` → `2026Q3`）、半年度（`2025H2`、`2026H1`、`2026H2` 至 9 月） |
 | **阅读模式** | 中文 / 英文 · 中国市场 / 全球市场 |
-| **核心指标** | GSCPI、SCFI、Drewry WCI、中国 LPI、WTO 贸易展望 |
+| **本版指标** | 中国 LPI，以及纽约联储 GSCPI（2026 年 10 月发布口径）。5 月末的 SCFI 与 WCI 没有刷新到 9 月，因此不在当前卡片里 |
 | **主要读者** | 战略、运营管理、采购、市场情报团队 |
 
 ## 快速开始
 
 ```bash
-# 简报幻灯片 — 无需额外工具
-open reports/2026H1/slides.zh.html
+# 交互报告 — 任意浏览器打开
+open reports/2026H1/report.html
 
-# 交互版 — Cursor 仅识别其托管的 canvases 目录
+# 同一版放进 Cursor
 cp reports/2026H1/report.canvas.tsx ~/.cursor/projects/<your-workspace>/canvases/
 ```
 
@@ -233,7 +233,7 @@ Cursor 运行时提供 `cursor/canvas` 类型，无需安装依赖。
 ## 数据与方法说明
 
 - 基于公开资料：WTO 贸易展望、纽约联储 **GSCPI**、上海航运交易所 **SCFI**、Drewry **WCI**、中国物流与采购联合会 **LPI** 发布。
-- 历史窗口在缺少连续月度序列时，可能使用标注的**趋势得分代理视图（基线 = 100）**。
+- 本版没有可引用的 2025 年中国月度 LPI。那些图是一条平的档案代理（基准 = 100），不是景气回升。全球 2025 年使用官方 GSCPI。
 - 定位：决策支持分析产品，而非法定披露数据。对外发布前请复核数字。
 
 ## 仓库结构
@@ -247,8 +247,8 @@ Cursor 运行时提供 `cursor/canvas` 类型，无需安装依赖。
 │   ├── hero.svg             # 可编辑静态源 / 回退
 │   ├── hero-motion.json
 │   ├── preview.html         # 本地动效预览页
-│   ├── controls.svg         # 语言 / 市场 / 窗口
-│   ├── narrative.svg        # 七段叙事骨架
+│   ├── controls.svg         # 语言 / 视角 / 时间
+│   ├── narrative.svg        # 交互版六块
 │   ├── formats.svg          # 四种呈现形式
 │   ├── segments.svg         # 五个细分行业
 │   ├── dual-lens.svg        # 中国 / 全球雷达图例

@@ -73,15 +73,15 @@ desktop.ini
 # and committing it would make every reader inherit someone else's view.
 *.canvas.data.json
 
+# Local side project. Not part of the report, and it contains its own git
+# metadata, install tree, and screenshots.
+assets/readme/shufang/
+
 # --- Transient output -----------------------------------------------------
 *.log
 *.tmp
 *.cache
 .scan-results.txt
-
-# Per-user canvas UI state (last selected language, period, segment tab).
-# Local preference, not part of the report.
-*.canvas.data.json
 
 # Note: the --self-test probe dir (.security-scan-selftest/) is deliberately NOT
 # ignored. The scan honours .gitignore, so ignoring the probe would make the

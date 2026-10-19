@@ -1,72 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="ntitle ndesc">
   <title id="ntitle">Report narrative flow / 报告叙事结构</title>
-  <desc id="ndesc">Seven fixed sections from key metrics through sources, comparable across every edition.</desc>
+  <desc id="ndesc">Six plates in the interactive report: readings, judgment, monthly path, moves, capability structure, and sources.</desc>
   <rect width="1200" height="300" rx="22" fill="#0B1422"/>
-  <text x="40" y="40" fill="#8BA4C0" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="1.5">FEATURE 02  |  FIXED NARRATIVE  |  固定七段叙事</text>
+  <text x="40" y="40" fill="#8BA4C0" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="1.5">FEATURE 02  |  SIX PLATES  |  交互版六块</text>
   <text x="40" y="68" fill="#B7C9DD" font-size="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">Same skeleton every edition — comparable across periods / 每期同一骨架，跨期可对照</text>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="13">
     <g transform="translate(40 100)">
-      <rect width="148" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
+      <rect width="168" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
       <rect x="14" y="16" width="40" height="22" rx="6" fill="#2563EB"/>
       <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">01</text>
-      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Metrics</text>
-      <text x="14" y="98" fill="#93C5FD" font-size="15">关键指标</text>
+      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Readings</text>
+      <text x="14" y="98" fill="#93C5FD" font-size="15">读数</text>
     </g>
-    <path d="M192 175 L204 175" stroke="#475569" stroke-width="2" marker-end="none"/>
-    <polygon points="208,175 200,170 200,180" fill="#475569"/>
-    <g transform="translate(204 100)">
-      <rect width="148" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
+    <polygon points="224,175 216,170 216,180" fill="#475569"/>
+    <g transform="translate(232 100)">
+      <rect width="168" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
       <rect x="14" y="16" width="40" height="22" rx="6" fill="#0F766E"/>
       <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">02</text>
-      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Dynamics</text>
-      <text x="14" y="98" fill="#93C5FD" font-size="15">行业动态</text>
+      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Judgment</text>
+      <text x="14" y="98" fill="#93C5FD" font-size="15">判断</text>
     </g>
-    <path d="M356 175 L368 175" stroke="#475569" stroke-width="2" marker-end="none"/>
-    <polygon points="372,175 364,170 364,180" fill="#475569"/>
-    <g transform="translate(368 100)">
-      <rect width="148" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
+    <polygon points="416,175 408,170 408,180" fill="#475569"/>
+    <g transform="translate(424 100)">
+      <rect width="168" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
       <rect x="14" y="16" width="40" height="22" rx="6" fill="#B45309"/>
       <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">03</text>
-      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Market</text>
-      <text x="14" y="98" fill="#93C5FD" font-size="15">市场表现</text>
+      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Path</text>
+      <text x="14" y="98" fill="#93C5FD" font-size="15">月度路径</text>
     </g>
-    <path d="M520 175 L532 175" stroke="#475569" stroke-width="2" marker-end="none"/>
-    <polygon points="536,175 528,170 528,180" fill="#475569"/>
-    <g transform="translate(532 100)">
-      <rect width="148" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
+    <polygon points="608,175 600,170 600,180" fill="#475569"/>
+    <g transform="translate(616 100)">
+      <rect width="168" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
       <rect x="14" y="16" width="40" height="22" rx="6" fill="#334155"/>
       <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">04</text>
-      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Topics</text>
-      <text x="14" y="98" fill="#93C5FD" font-size="15">热门议题</text>
+      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Moves</text>
+      <text x="14" y="98" fill="#93C5FD" font-size="15">要做的事</text>
     </g>
-    <path d="M684 175 L696 175" stroke="#475569" stroke-width="2" marker-end="none"/>
-    <polygon points="700,175 692,170 692,180" fill="#475569"/>
-    <g transform="translate(696 100)">
-      <rect width="148" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
-      <rect x="14" y="16" width="40" height="22" rx="6" fill="#2563EB"/>
-      <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">05</text>
-      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Trends</text>
-      <text x="14" y="98" fill="#93C5FD" font-size="15">趋势动作</text>
-    </g>
-    <path d="M848 175 L860 175" stroke="#475569" stroke-width="2" marker-end="none"/>
-    <polygon points="864,175 856,170 856,180" fill="#475569"/>
-    <g transform="translate(860 100)">
-      <rect width="148" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
+    <polygon points="800,175 792,170 792,180" fill="#475569"/>
+    <g transform="translate(808 100)">
+      <rect width="168" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
       <rect x="14" y="16" width="40" height="22" rx="6" fill="#EA580C"/>
-      <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">06</text>
-      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Segments</text>
-      <text x="14" y="98" fill="#93C5FD" font-size="15">行业深潜</text>
+      <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">05</text>
+      <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Structure</text>
+      <text x="14" y="98" fill="#93C5FD" font-size="15">能力结构</text>
     </g>
-    <path d="M1012 175 L1024 175" stroke="#475569" stroke-width="2" marker-end="none"/>
-    <polygon points="1028,175 1020,170 1020,180" fill="#475569"/>
-    <g transform="translate(1024 100)">
-      <rect width="148" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
+    <polygon points="992,175 984,170 984,180" fill="#475569"/>
+    <g transform="translate(1000 100)">
+      <rect width="160" height="150" rx="14" fill="#122033" stroke="#2A4566"/>
       <rect x="14" y="16" width="40" height="22" rx="6" fill="#0F766E"/>
-      <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">07</text>
+      <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="700">06</text>
       <text x="14" y="72" fill="#F2F6FB" font-size="18" font-weight="700">Sources</text>
-      <text x="14" y="98" fill="#93C5FD" font-size="15">来源方法</text>
+      <text x="14" y="98" fill="#93C5FD" font-size="15">来源</text>
     </g>
   </g>
 </svg>

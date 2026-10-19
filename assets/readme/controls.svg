@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="ctitle cdesc">
   <title id="ctitle">Interactive controls / 交互控件</title>
-  <desc id="cdesc">Three controls: language ZH/EN, market China/Global, and period windows from 2025Q3 to 2026Q2.</desc>
+  <desc id="cdesc">Three controls: language ZH/EN, market China/Global, and period — year to date, quarter through 2026Q3, and half-year.</desc>
   <rect width="1200" height="260" rx="22" fill="#0B1422"/>
   <text x="40" y="42" fill="#8BA4C0" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="1.5">FEATURE 01  |  INTERACTIVE CONTROLS  |  三项交互控件</text>
 
@@ -30,10 +30,10 @@
       <rect width="360" height="150" rx="16" fill="#122033" stroke="#2A4566"/>
       <rect x="20" y="22" width="44" height="22" rx="6" fill="#0F766E"/>
       <text x="32" y="38" fill="#FFFFFF" font-size="12" font-weight="700">C</text>
-      <text x="20" y="74" fill="#F2F6FB" font-size="22" font-weight="700">Time window</text>
-      <text x="20" y="100" fill="#5EEAD4" font-size="16">时间窗口</text>
-      <text x="20" y="130" fill="#A9C0D8" font-size="14">Quarterly 2025Q3-2026Q2 and</text>
-      <text x="20" y="150" fill="#A9C0D8" font-size="14">half-year 2025H2 / 2026H1 archive.</text>
+      <text x="20" y="74" fill="#F2F6FB" font-size="22" font-weight="700">Period</text>
+      <text x="20" y="100" fill="#5EEAD4" font-size="16">时间</text>
+      <text x="20" y="130" fill="#A9C0D8" font-size="14">Year to date is Jan–Sep 2026.</text>
+      <text x="20" y="150" fill="#A9C0D8" font-size="14">Quarter and half-year are other cuts.</text>
     </g>
   </g>
 </svg>
